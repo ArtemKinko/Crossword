@@ -1,3 +1,5 @@
+package BaseClasses;
+
 public class Word {
 
     private int lenght;             // длина слова
@@ -57,7 +59,7 @@ public class Word {
 
     @Override
     public String toString() {
-        return "Word{" +
+        return "BaseClasses.Word{" +
                 "lenght=" + lenght +
                 ", isHorisontal=" + isHorisontal +
                 ", x=" + x +

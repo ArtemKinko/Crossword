@@ -1,2 +1,5 @@
-package Pages;public class SolvingPage {
+package Pages;
+
+public class SolvingPage {
+
 }
