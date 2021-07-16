@@ -1,15 +1,22 @@
 package Tables;
 
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 
 public class GenerationTable extends Table {
     public GenerationTable(int tempSize) {
-        setTableView(new JTable(tempSize, tempSize));
+
+        // создаем таблицу с запрещенным редактированием
+        setTableView(new JTable(tempSize, tempSize) {
+            @Override
+            public boolean isCellEditable(int i, int i1) {
+                return false;
+            }
+        });
         setSize(tempSize);
 
         // выделение интервалом
@@ -23,6 +30,7 @@ public class GenerationTable extends Table {
     }
 
 
+    // адаптер для выделения мыши (выполняется при отпускании клавиши)
     private class GenerationListener extends MouseAdapter {
         @Override
         // при отпускании клавиши

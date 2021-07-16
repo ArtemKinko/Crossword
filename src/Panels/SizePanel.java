@@ -2,6 +2,8 @@ package Panels;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 public class SizePanel extends JPanel {
     public SizePanel() {
@@ -21,7 +23,24 @@ public class SizePanel extends JPanel {
 
         constraints.gridx = 1;
         constraints.ipadx = 50;
-        JTextField numField = new JTextField();
+        numField = new JTextField("10");
+
+        // адаптер для нажатых клавиш, оставляющий только цифры
+        numField.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                String value = numField.getText();
+                int l = value.length();
+                numField.setEditable(e.getKeyChar() >= '0' && e.getKeyChar() <= '9' || e.getKeyCode() == 8);
+            }
+        });
+
         add(numField, constraints);
     }
+
+    public JTextField getNumField() {
+        return numField;
+    }
+
+    private JTextField numField;
 }

@@ -8,7 +8,7 @@ public class MainWindow extends JFrame {
     MainWindow() {
         super("Crossword generator by Kinko Artem");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(820, 600);
+        setSize(900, 600);
 
         // панель вкладок
         JTabbedPane tabbedPane = new JTabbedPane();
@@ -19,9 +19,6 @@ public class MainWindow extends JFrame {
 
         // КОНЕЦ ДОБАВЛЕНИЯ СТРАНИЦ
         getContentPane().add(tabbedPane);
-
-
-
         setVisible(true);
     }
 
