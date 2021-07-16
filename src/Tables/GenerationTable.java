@@ -35,9 +35,7 @@ public class GenerationTable extends Table {
 
             for (int i: rows) {
                 for (int j: columns)
-                {
-                    model.setValueAt("+", i, j);
-                }
+                    model.setValueAt(model.getValueAt(i, j) == "█" ? "" : "█", i, j);
             }
         }
     }

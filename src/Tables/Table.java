@@ -18,9 +18,9 @@ public class Table {
     // сеттер размера таблицы, приведение ее ячеек к квадратам
     public void setSize(int size) {
 
-
         TableView.setRowHeight(500 / size);
         TableView.setPreferredSize(new Dimension(500, 500));
+        TableView.setFont(new Font("Serif", Font.BOLD, 500 / size / 2));
         this.size = size;
     }
 
