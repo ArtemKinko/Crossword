@@ -109,20 +109,22 @@ public class GenerationPage extends Page {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String message = "";
-                if (extraPanel.getRadioDraw().isSelected()) {
-                    if (pathDictionaryPanel.getFileChooser().getSelectedFile() == null)
-                        message += "Не выбран словарь. ";
-                }
-                if (saveGenPanel.getFileChooser().getSelectedFile() == null)
-                    message += "Не выбрана директория сохранения. ";
-                if (saveGenPanel.getNameField().getText().equals(""))
-                    message += "Пустое имя файла.";
-
-                if (!message.equals(""))
-                    JOptionPane.showMessageDialog(GenerationPage.this, message);
-                else
+//                if (extraPanel.getRadioDraw().isSelected()) {
+//                    if (pathDictionaryPanel.getFileChooser().getSelectedFile() == null)
+//                        message += "Не выбран словарь. ";
+//                }
+//                if (saveGenPanel.getFileChooser().getSelectedFile() == null)
+//                    message += "Не выбрана директория сохранения. ";
+//                if (saveGenPanel.getNameField().getText().equals(""))
+//                    message += "Пустое имя файла.";
+//
+//                if (!message.equals(""))
+//                    JOptionPane.showMessageDialog(GenerationPage.this, message);
+//                else {
+                    ((GenerationTable)getTable()).getMainWord();
                     JOptionPane.showMessageDialog(GenerationPage.this, "Успешно сохранено!");
-            }
+                }
+//            }
         });
     }
 
