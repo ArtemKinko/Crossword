@@ -1,5 +1,6 @@
 package Pages;
 
+import Algorithms.Dictionary;
 import BaseClasses.Page;
 import Panels.ExtraPanel;
 import Panels.PathDictionaryPanel;
@@ -13,6 +14,7 @@ import java.awt.event.ActionListener;
 
 public class GenerationPage extends Page {
     public GenerationPage() {
+        dictionary = new Dictionary();
         // устанавливаем генерационную таблицу
         setTable(new GenerationTable(10));
 
@@ -122,6 +124,7 @@ public class GenerationPage extends Page {
 //                    JOptionPane.showMessageDialog(GenerationPage.this, message);
 //                else {
                     ((GenerationTable)getTable()).getMainWord();
+                    dictionary.ImportFromXML(pathDictionaryPanel.getFileChooser().getSelectedFile().getPath());
                     JOptionPane.showMessageDialog(GenerationPage.this, "Успешно сохранено!");
                 }
 //            }
@@ -132,6 +135,6 @@ public class GenerationPage extends Page {
     private SizePanel sizePanel;
     private ExtraPanel extraPanel;
     private SaveGenPanel saveGenPanel;
-
+    private Dictionary dictionary;
 
 }

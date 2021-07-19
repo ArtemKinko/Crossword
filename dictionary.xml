@@ -1,28 +1,15 @@
-<questions>
-    <question number = "1">
-        <quest>Как звали пушкинского Онегина?</quest>
-        <ans1>Александр</ans1>
-        <ans2>Евгений</ans2>
-        <ans3>Иван</ans3>
-        <ans4>Михаил</ans4>
-        <cor>2</cor>
-    </question>
-
-    <question number = "2">
-        <quest>Что из перечисленного Кот матроскин не предъявлял в качестве своих документов?</quest>
-        <ans1>Лапы</ans1>
-        <ans2>Усы</ans2>
-        <ans3>Хвост</ans3>
-        <ans4>Уши</ans4>
-        <cor>4</cor>
-    </question>
-
-    <question number = "3">
-        <quest>Какое ежегодное мероприятие в Рио-де-Жанейро привлекает туристов со всего мира?</quest>
-        <ans1>Карнавал</ans1>
-        <ans2>Военный парад</ans2>
-        <ans3>Кинофестиваль</ans3>
-        <ans4>Экономический форум</ans4>
-        <cor>1</cor>
-    </question>
-</questions>
+<?xml version="1.0" encoding="UTF-8"?>
+<SimpleWords>
+    <SimpleWord>
+        <Word>кнут</Word>
+        <Description>Орудие наказания</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>нефть</Word>
+        <Description>Экономически важное для крупной державы природное сырье</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>очередь</Word>
+        <Description>Порядок в следовании кого-чего–нибудь</Description>
+    </SimpleWord>
+</SimpleWords>
