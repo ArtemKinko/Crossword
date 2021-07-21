@@ -54,6 +54,7 @@ public class GenerationTable extends Table {
 
     // метод добавления одного слова из таблицы, входные данные - начало слова и направление
     private GenerationWord addNewWord(int x, int y, boolean isHorizontal) {
+        numWords++;
         GenerationWord word = new GenerationWord();
         TableModel model = getTableView().getModel();
         word.setX(x);
@@ -154,6 +155,7 @@ public class GenerationTable extends Table {
     // метод для получения главного слова таблицы для генерации кроссворда
     public void genMainWord() {
         TableModel model = getTableView().getModel();
+        numWords = 0;
 
         search:
         for (int i = 0; i < getSize(); i++)
@@ -190,5 +192,9 @@ public class GenerationTable extends Table {
     }
     public void printAll() {
         System.out.println(allWords.toString());
+    }
+    private int numWords;
+    public int getNumWords() {
+        return numWords;
     }
 }

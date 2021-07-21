@@ -3,6 +3,7 @@ package Pages;
 import Algorithms.Dictionary;
 import Algorithms.GenerationWord;
 import Algorithms.Generator;
+import Algorithms.XMLSaver;
 import BaseClasses.Page;
 import BaseClasses.Word;
 import Panels.ExtraPanel;
@@ -129,15 +130,15 @@ public class GenerationPage extends Page {
                     ((GenerationTable)getTable()).genMainWord();
                     dictionary.ImportFromXML(pathDictionaryPanel.getFileChooser().getSelectedFile().getPath());
                     Generator generator = new Generator(dictionary);
-                    ((GenerationTable)getTable()).genMainWord();
                     GenerationWord genWord = ((GenerationTable) getTable()).getAllWords();
-                    System.out.println(generator.Generate(genWord));
+                    System.out.println(generator.Generate(genWord, ((GenerationTable)getTable()).getNumWords()));
                     for (Word word:generator.getWordList())
                         System.out.println(word.toString());
 
-                    String path = saveGenPanel.getFileChooser().getSelectedFile().getPath() +
+                    String path = saveGenPanel.getFileChooser().getSelectedFile().getPath() + "\\" +
                             saveGenPanel.getNameField().getText() + ".xml";
-                    generator.GenToPath(path, getTable().getSize());
+                    XMLSaver saver = new XMLSaver();
+                    saver.TableExport(path, generator.getWordList(), true, getTable());
                     JOptionPane.showMessageDialog(GenerationPage.this, "Успешно сохранено!");
                 }
             }

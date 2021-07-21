@@ -50,13 +50,13 @@ public class PathTablePanel extends JPanel {
         constraints.ipadx = 150;
         constraints.gridx = 0;
         constraints.gridy = 1;
-        JButton saveButton = new JButton("Сохранить");
+        saveButton = new JButton("Сохранить");
         add(saveButton, constraints);
 
         // прикрепляем кнопку загрузки
         constraints.ipadx = 0;
         constraints.gridx = 1;
-        JButton loadButton = new JButton("Загрузить");
+        loadButton = new JButton("Загрузить");
         add(loadButton, constraints);
     }
 
@@ -70,5 +70,17 @@ public class PathTablePanel extends JPanel {
     private JTextField pathField;
     public JTextField getPathField() {
         return pathField;
+    }
+
+    // кнопка сохранения
+    private JButton saveButton;
+    public JButton getSaveButton() {
+        return saveButton;
+    }
+
+    // кнопка загрузки
+    private JButton loadButton;
+    public JButton getLoadButton() {
+        return loadButton;
     }
 }

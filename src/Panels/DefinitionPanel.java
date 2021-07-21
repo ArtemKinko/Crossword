@@ -17,7 +17,7 @@ public class DefinitionPanel extends JPanel {
         constraints.gridheight = 1;
         constraints.gridx = 0;
         constraints.gridy = 0;
-        definitionArea = new JTextArea(20, 10);
+        definitionArea = new JTextArea("",20, 10);
         //definitionArea.setSize(new Dimension(100, 200));
         definitionArea.setLineWrap(true);
 
@@ -26,4 +26,7 @@ public class DefinitionPanel extends JPanel {
     }
 
     private JTextArea definitionArea;
+    public void setDefinitions(String definitions) {
+        definitionArea.setText(definitions);
+    }
 }

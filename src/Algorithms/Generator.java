@@ -2,20 +2,6 @@ package Algorithms;
 
 import BaseClasses.Word;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-
-import javax.swing.text.AbstractDocument;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
-import java.awt.*;
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,14 +12,19 @@ public class Generator {
     }
     private Dictionary dict;
 
-    public GenerationWord Generate(GenerationWord word){
+    public GenerationWord Generate(GenerationWord word, int numWords){
         for (SimpleXMLWord w: dict.getWords().get(Math.min(word.getLength(), 12))) {
+            curWords = 0;
+            dict.ClearAllUsed();
+            wordList.clear();
             w.setUsed(true);
             word.setWord(w.getWord());
             word.setDefinition(w.getDescription());
             wordList.add(word);
+            curWords++;
             AddPair(word);
-            break;
+            if (curWords >= numWords)
+                break;
         }
         return word;
     }
@@ -49,6 +40,7 @@ public class Generator {
                     pairWord.setWord(w.getWord());
                     pairWord.setDefinition(w.getDescription());
                     wordList.add(pairWord);
+                    curWords++;
                     AddPair(pairWord);
                     break;
                 }
@@ -60,51 +52,5 @@ public class Generator {
     public List<Word> getWordList() {
         return wordList;
     }
-
-    public void GenToPath(String path, int tableSize) {
-        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder builder;
-        try {
-            builder = factory.newDocumentBuilder();
-            Document doc = builder.newDocument();
-            // корневой элемент
-            Element rootElement = doc.createElement("Table");
-            doc.appendChild(rootElement);
-            Element size = doc.createElement("Size");
-            size.appendChild(doc.createTextNode(String.valueOf(tableSize)));
-            rootElement.appendChild(size);
-
-            for (Word w: wordList)
-                rootElement.appendChild(getWord(doc, w));
-
-            TransformerFactory transformerFactory = TransformerFactory.newInstance();
-            Transformer transformer = transformerFactory.newTransformer();
-            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-            DOMSource source = new DOMSource(doc);
-            StreamResult file = new StreamResult(new File("C:/Users/Nika_Lis/Desktop/Crossword/testTable.xml"));
-            transformer.transform(source, file);
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    private static Node getWord(Document doc, Word word) {
-        Element genWord = doc.createElement("Word");
-        genWord.appendChild(getWordElement(doc, genWord, "Term", word.getWord()));
-        genWord.appendChild(getWordElement(doc, genWord, "Definition", word.getDefinition()));
-        genWord.appendChild(getWordElement(doc, genWord, "IsHorizontal", String.valueOf(word.isHorizontal())));
-        genWord.appendChild(getWordElement(doc, genWord, "PosX", String.valueOf(word.getX())));
-        genWord.appendChild(getWordElement(doc, genWord, "PosX", String.valueOf(word.getX())));
-        genWord.appendChild(getWordElement(doc, genWord, "PosY", String.valueOf(word.getY())));
-        genWord.appendChild(getWordElement(doc, genWord, "Length", String.valueOf(word.getLength())));
-        genWord.appendChild(getWordElement(doc, genWord, "Written", ""));
-        return genWord;
-    }
-
-    private static Node getWordElement(Document doc, Element element, String name, String value) {
-        Element node = doc.createElement(name);
-        node.appendChild(doc.createTextNode(value));
-        return node;
-    }
+    private int curWords;
 }
