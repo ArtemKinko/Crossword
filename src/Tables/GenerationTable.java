@@ -13,6 +13,7 @@ import java.util.List;
 public class GenerationTable extends Table {
     public GenerationTable(int tempSize) {
 
+        allWords = new GenerationWord();
         // создаем таблицу с запрещенным редактированием
         setTableView(new JTable(tempSize, tempSize) {
             @Override
@@ -151,9 +152,8 @@ public class GenerationTable extends Table {
     }
 
     // метод для получения главного слова таблицы для генерации кроссворда
-    public GenerationWord getMainWord() {
+    public void genMainWord() {
         TableModel model = getTableView().getModel();
-        GenerationWord mainWord = new GenerationWord();
 
         search:
         for (int i = 0; i < getSize(); i++)
@@ -162,26 +162,33 @@ public class GenerationTable extends Table {
                     // если первое слово вертикально
                     if (j == (getSize() - 1)) {
                         System.out.println("ВЕРТИКАЛЬНО");
-                        mainWord = addNewWord(i, j, false);
+                        allWords = addNewWord(i, j, false);
                     }
                     else if (j < getSize() - 1) {
                         if (model.getValueAt(i, j + 1) != "█") {
                             System.out.println("ВЕРТИКАЛЬНО");
-                            mainWord = addNewWord(i, j, false);
+                            allWords = addNewWord(i, j, false);
                         }
                         else {
                             System.out.println("ГОРИЗОНТАЛЬНО");
-                            mainWord = addNewWord(i, j, true);
+                            allWords = addNewWord(i, j, true);
                         }
                     }
                     else {
                         System.out.println("ГОРИЗОНТАЛЬНО");
-                        mainWord = addNewWord(i, j, true);
+                        allWords = addNewWord(i, j, true);
                     }
                     break search;
                 }
             }
-        System.out.println(mainWord.toString());
-        return mainWord;
+        System.out.println(allWords.toString());
+    }
+
+    private GenerationWord allWords;
+    public GenerationWord getAllWords() {
+        return allWords;
+    }
+    public void printAll() {
+        System.out.println(allWords.toString());
     }
 }

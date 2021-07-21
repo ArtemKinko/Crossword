@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table>
+    <Size>10</Size>
+    <Words>
+        <Word>
+            <Term>очередь</Term>>
+            <Definition>Порядок в следовании кого-чего–нибудь</Definition>
+            <IsHorizontal>1</IsHorizontal>>
+            <PosX>2</PosX>
+            <PosY>2</PosY>
+            <Lenght>7</Lenght>
+            <Written></Written>
+        </Word>>
+    </Words>
+</Table>

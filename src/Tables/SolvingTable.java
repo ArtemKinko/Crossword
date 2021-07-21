@@ -19,11 +19,14 @@ public class SolvingTable extends Table {
     }
 
     // метод импорта из файла
-    public boolean XMLImport(String path) {
-        return true;
+    public void XMLImport(String path) {
+
     }
 
     // список слов
     private List<Word> words;
-
+    private boolean isImported;
+    public boolean isImported() {
+        return isImported;
+    }
 }

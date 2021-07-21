@@ -1,4 +1,5 @@
 import Pages.GenerationPage;
+import Pages.SolvingPage;
 
 import javax.swing.*;
 import java.awt.*;
@@ -16,6 +17,7 @@ public class MainWindow extends JFrame {
         // ТУТ БУДЕТ ДОБАВЛЕНИЕ СТРАНИЦ
 
         tabbedPane.addTab("Generate", new GenerationPage());
+        tabbedPane.addTab("Solve", new SolvingPage());
 
         // КОНЕЦ ДОБАВЛЕНИЯ СТРАНИЦ
         getContentPane().add(tabbedPane);

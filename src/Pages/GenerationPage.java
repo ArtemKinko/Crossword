@@ -1,7 +1,10 @@
 package Pages;
 
 import Algorithms.Dictionary;
+import Algorithms.GenerationWord;
+import Algorithms.Generator;
 import BaseClasses.Page;
+import BaseClasses.Word;
 import Panels.ExtraPanel;
 import Panels.PathDictionaryPanel;
 import Panels.SaveGenPanel;
@@ -111,23 +114,33 @@ public class GenerationPage extends Page {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String message = "";
-//                if (extraPanel.getRadioDraw().isSelected()) {
-//                    if (pathDictionaryPanel.getFileChooser().getSelectedFile() == null)
-//                        message += "Не выбран словарь. ";
-//                }
-//                if (saveGenPanel.getFileChooser().getSelectedFile() == null)
-//                    message += "Не выбрана директория сохранения. ";
-//                if (saveGenPanel.getNameField().getText().equals(""))
-//                    message += "Пустое имя файла.";
-//
-//                if (!message.equals(""))
-//                    JOptionPane.showMessageDialog(GenerationPage.this, message);
-//                else {
-                    ((GenerationTable)getTable()).getMainWord();
+                if (extraPanel.getRadioDraw().isSelected()) {
+                    if (pathDictionaryPanel.getFileChooser().getSelectedFile() == null)
+                        message += "Не выбран словарь. ";
+                }
+                if (saveGenPanel.getFileChooser().getSelectedFile() == null)
+                    message += "Не выбрана директория сохранения. ";
+                if (saveGenPanel.getNameField().getText().equals(""))
+                    message += "Пустое имя файла.";
+
+                if (!message.equals(""))
+                    JOptionPane.showMessageDialog(GenerationPage.this, message);
+                else {
+                    ((GenerationTable)getTable()).genMainWord();
                     dictionary.ImportFromXML(pathDictionaryPanel.getFileChooser().getSelectedFile().getPath());
+                    Generator generator = new Generator(dictionary);
+                    ((GenerationTable)getTable()).genMainWord();
+                    GenerationWord genWord = ((GenerationTable) getTable()).getAllWords();
+                    System.out.println(generator.Generate(genWord));
+                    for (Word word:generator.getWordList())
+                        System.out.println(word.toString());
+
+                    String path = saveGenPanel.getFileChooser().getSelectedFile().getPath() +
+                            saveGenPanel.getNameField().getText() + ".xml";
+                    generator.GenToPath(path, getTable().getSize());
                     JOptionPane.showMessageDialog(GenerationPage.this, "Успешно сохранено!");
                 }
-//            }
+            }
         });
     }
 

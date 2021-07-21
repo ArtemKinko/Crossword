@@ -16,6 +16,11 @@ public class GenerationWord extends Word{
     // 2 параметр - позиция общей буквы ГЛАВНОГО слова
     // 3 параметр - позиция обзей буквы СВЯЗАННОГО слова
     private List<List<Object>> pairList;
+
+    public List<List<Object>> getPairList() {
+        return pairList;
+    }
+
     public void addPair(GenerationWord word, int posMain, int posExtra) {
         List<Object> list = new ArrayList<>();
         list.add(word);

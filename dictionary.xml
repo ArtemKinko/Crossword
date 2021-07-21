@@ -1,15 +1,1047 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SimpleWords>
     <SimpleWord>
+        <Word>нож</Word>
+        <Description>Предмет для резания</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>яма</Word>
+        <Description>Углубление в земле</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ряд</Word>
+        <Description>Ларьки, магазины, лотки, рыночные прилавки, расположенные в одну линию</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>еда</Word>
+        <Description>Пища</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>гул</Word>
+        <Description>Не вполне ясный, сливающийся шум</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>оса</Word>
+        <Description>Жалящее летающее перепончатокрылое насекомое</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>фас</Word>
+        <Description>Лицевая сторона</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>зло</Word>
+        <Description>Беда, несчастье, неприятность</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>бра</Word>
+        <Description>Светильник</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>карт</Word>
+        <Description>Гоночный микролитражный автомобиль без кузова</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>жюри</Word>
+        <Description>Группа экспертов, присуждающая призы, награды</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>кедр</Word>
+        <Description>Хвойное дерево</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>духи</Word>
+        <Description>Парфюмерное изделие</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>обои</Word>
+        <Description>Материал для внутренней оклейки стен</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>изюм</Word>
+        <Description>Провяленные сушёные ягоды винограда</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>приз</Word>
+        <Description>Награда победителю в состязании</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>торф</Word>
+        <Description>Плотная масса, образовавшаяся из перегнивших остатков болотных растений</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>тигр</Word>
+        <Description>Крупное хищное животное, обитающее в Юго-Восточной Азии, на Дальнем Востоке</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>обед</Word>
+        <Description>Перерыв в работе в середине дня</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>игра</Word>
+        <Description>Занятие, служащее для развлечения, отдыха, спортивного соревнования</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>луза</Word>
+        <Description>Часть стола для бильярда</Description>
+    </SimpleWord>
+    <SimpleWord>
         <Word>кнут</Word>
         <Description>Орудие наказания</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>июль</Word>
+        <Description>Второй месяц лета</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>анод</Word>
+        <Description>Положительный электрод электрический дуги</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ожог</Word>
+        <Description>Местное повреждение ткани тела огнём</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>клюв</Word>
+        <Description>Роговое образование у птиц, черепах</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>июнь</Word>
+        <Description>Месяц года, названный по имени древнеримской богини Юноны</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>укор</Word>
+        <Description>Упрёк, порицание</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>враг</Word>
+        <Description>Человек, который находится в состоянии вражды с кем–нибудь</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>дума</Word>
+        <Description>Мысль, размышление</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>утка</Word>
+        <Description>Дикая или домашняя птица, живущая у воды</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>тяга</Word>
+        <Description>Движение газов, дыма в топочных и вентиляционных устройствах</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>муха</Word>
+        <Description>Насекомое</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>фора</Word>
+        <Description>Преимущество, даваемое сильным соперником слабому</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>гусь</Word>
+        <Description>Домашняя птица</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>медь</Word>
+        <Description>Химический элемент, металл</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>тема</Word>
+        <Description>Предмет описания, изображения, исследования</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>тело</Word>
+        <Description>Организм человека или животного в его внешних, физических формах</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>корт</Word>
+        <Description>Площадка для тенниса</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>катер</Word>
+        <Description>Небольшое моторное судно</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>аллея</Word>
+        <Description>Дорога с рядами деревьев, посаженными по обеим её сторонам</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>книга</Word>
+        <Description>Сшитые в один переплёт листы бумаги, заполняемые учётными данными</Description>
     </SimpleWord>
     <SimpleWord>
         <Word>нефть</Word>
         <Description>Экономически важное для крупной державы природное сырье</Description>
     </SimpleWord>
     <SimpleWord>
+        <Word>лавра</Word>
+        <Description>Мужской православный монастырь</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>брасс</Word>
+        <Description>Стиль плавания без выноса рук над водой</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>гольф</Word>
+        <Description>Вид игры в мяч</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>налёт</Word>
+        <Description>Стремительное и внезапное нападение</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>округ</Word>
+        <Description>Административно-территориальная единица</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>метро</Word>
+        <Description>Вид общественного транспорта</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>молва</Word>
+        <Description>Вести, слухи, толки</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>обжиг</Word>
+        <Description>Нагрев и выдержка при высокой температуре различных материалов</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>эклер</Word>
+        <Description>Пирожное из заварного теста с кремом внутри</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>шерсть</Word>
+        <Description>Волосяной покров животных</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>скалка</Word>
+        <Description>Деревянный валик для раскатывания чего-либо</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>взгляд</Word>
+        <Description>Выражение глаз</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>патент</Word>
+        <Description>Документ, удостоверяющий приоритет изобретения, авторство</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>облава</Word>
+        <Description>Оцепление мест, где находятся преследуемые лица, с целью их поимки</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>лавина</Word>
+        <Description>Массы снега, низвергающиеся с гор</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>шахтёр</Word>
+        <Description>Горнорабочий</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>рыцарь</Word>
+        <Description>Самоотверженный, благородный, великодушный человек</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>поляна</Word>
+        <Description>Луг, небольшое ровное пространство среди леса</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>абсурд</Word>
+        <Description>Бессмыслица, нелепость</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>алтарь</Word>
+        <Description>В старину: то же, что жертвенник</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>фемида</Word>
+        <Description>Богиня правосудия в греческой мифологии</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>косуля</Word>
+        <Description>Род небольших оленей</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>коллаж</Word>
+        <Description>Создание единого суммарного изображения из частей нескольких отдельных</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>тренер</Word>
+        <Description>Человек, профессионально занимающийся подготовкой спортсменов</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>галион</Word>
+        <Description>Старинное испанское военное и коммерческое парусное судно</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>анклав</Word>
+        <Description>Территория государства, окружённая со всех сторон владениями другого государства и не имеющая морского берега</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>прыжок</Word>
+        <Description>Способ движения некоторых животных</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>панама</Word>
+        <Description>Род летней шляпы</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>статор</Word>
+        <Description>Неподвижная часть машины</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>учение</Word>
+        <Description>Система научных взглядов на что-нибудь</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>хлопок</Word>
+        <Description>Удар в ладоши</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>пикник</Word>
+        <Description>Загородная увеселительная прогулка компанией с закуской на открытом воздухе</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>табель</Word>
+        <Description>Сводный журнал по учету рабочего времени работника на каждый день</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>вулкан</Word>
+        <Description>Геологическое образование</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ректор</Word>
+        <Description>Лицо, стоящее во главе управления университетом</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>сигара</Word>
+        <Description>Табачное изделие</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>доярка</Word>
+        <Description>Работница, ухаживающая за коровами</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>регент</Word>
+        <Description>Временный правитель государства</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>резерв</Word>
+        <Description>Запас чего-либо на случай надобности</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>теннис</Word>
+        <Description>Род спортивной игры в мяч</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>сериал</Word>
+        <Description>Многодневный телефильм</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>мозоль</Word>
+        <Description>Утолщение кожи от частого трения</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>зрачок</Word>
+        <Description>Отверстие в радужной оболочке глаза</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>пиджак</Word>
+        <Description>Принадлежность мужского костюма</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>стежок</Word>
+        <Description>Часть шва: расстояние между двумя проколами иглы</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>клякса</Word>
+        <Description>Пятно от капнувших с пера чернил</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>кимоно</Word>
+        <Description>Спортивный костюм дзюдоиста</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>трофей</Word>
+        <Description>Вещественная память о какой-либо победе</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>грохот</Word>
+        <Description>Очень сильный шум</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>альбом</Word>
+        <Description>Собрание репродукций, фотографий, изданных в виде книги</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>яндекс</Word>
+        <Description>Одна из старейших поисковых систем в истории интернета</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ремесленник</Word>
+        <Description>Мастер, производящий конечный продукт труда</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>интервенция</Word>
+        <Description>Вторжение с целью захвата территории</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>полотенце</Word>
+        <Description>Предмет личной гигиены</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>катаклизм</Word>
+        <Description>Резкий переворот в природе или в обществе</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>указатель</Word>
+        <Description>Дорожный знак</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>пословица</Word>
+        <Description>Народный афоризм</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>мнемоника</Word>
+        <Description>Совокупность приемов, помогающих запомнить нужные сведения</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>манометр</Word>
+        <Description>Прибор для измерения давления жидкости или газа в чём-либо</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>фонотека</Word>
+        <Description>Собрание звукозаписей</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>перископ</Word>
+        <Description>рительная труба для наблюдения из подводной лодки</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>линолеум</Word>
+        <Description>Материал для покрытия полов</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ареометр</Word>
+        <Description>Прибор для измерений плотности жидкости, основанный на законе Архимеда</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>агрессор</Word>
+        <Description>Нападающая сторона, захватчик</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>начинка</Word>
+        <Description>То, что кладётся внутрь пирога, конфет, тушки</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>мокрица</Word>
+        <Description>Живущее в сырых местах мелкое ракообразное животное с большим количеством ножек</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>саботаж</Word>
+        <Description>Намеренный срыв работы</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>складка</Word>
+        <Description>Полоса ткани, загнутая и ровно сложенная вдвое</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>апостол</Word>
+        <Description>Ученик Христа</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>обморок</Word>
+        <Description>Приступ кратковременной утраты сознания</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>кувалда</Word>
+        <Description>Молот для дробления камня или для кузнечных и плотничьих работ</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>кашалот</Word>
+        <Description>Морское млекопитающее</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>реклама</Word>
+        <Description>Самая нелюбимая зрителем часть телепрограммы</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>агрегат</Word>
+        <Description>Масса, составленная из соединения однородных или разнородных частей</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>кальмар</Word>
+        <Description>Съедобный морской моллюск</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>амфибия</Word>
+        <Description>Позвоночное животное, дышащее в раннем возрасте жабрами, а во взрослом состоянии лёгкими</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>саранча</Word>
+        <Description>Насекомое — вредитель сельского хозяйства</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>аптечка</Word>
+        <Description>Набор лекарств для оказания первой помощи</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>стружка</Word>
+        <Description>Отходы обработки металла, дерева</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>меценат</Word>
+        <Description>Богатый покровитель наук и искусств</Description>
+    </SimpleWord>
+    <SimpleWord>
         <Word>очередь</Word>
         <Description>Порядок в следовании кого-чего–нибудь</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>солярка</Word>
+        <Description>Продукт перегонки нефти</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>обелиск</Word>
+        <Description>Памятник, сооружение в виде гранёного, сужающегося кверху столба</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>кулинар</Word>
+        <Description>Человек, искусный в приготовлении кушаний</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>вексель</Word>
+        <Description>Долговое обязательство</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>бандура</Word>
+        <Description>Громоздкий и нескладный предмет</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>корабль</Word>
+        <Description>Морское судно</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>пантера</Word>
+        <Description>Крупное хищное животное семейства кошачьих</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>орешник</Word>
+        <Description>Ореховый кустарник</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>крейсер</Word>
+        <Description>Большой быстроходный боевой корабль</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>знахарь</Word>
+        <Description>Лекарь-самоучка, действующий собственными примитивными способами</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>аппетит</Word>
+        <Description>Желание есть</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>галстук</Word>
+        <Description>Предмет мужской одежды</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>айсберг</Word>
+        <Description>Отколовшийся от ледника дрейфующий ледяной массив</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>торнадо</Word>
+        <Description>Название смерча в США</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>альянс</Word>
+        <Description>Союз, объединение</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>бюджет</Word>
+        <Description>Роспись доходов и расходов государства на определённый срок</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>юбилей</Word>
+        <Description>Торжественно отмечаемая годовщина знаменательного события</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>капрал</Word>
+        <Description>В армиях некоторых стран: чин младшего командного состава</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>грелка</Word>
+        <Description>Плоский сосуд, для согревания какой-нибудь части тела</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>мина</Word>
+        <Description>Выражение лица</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>соленоид</Word>
+        <Description>Цилиндрическая катушка, состоящая из большого числа намотанных вплотную друг к другу витков проводника</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>юбка</Word>
+        <Description>Одежда шотландцев</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>клён</Word>
+        <Description>Дерево с широкими резными листьями</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>металл</Word>
+        <Description>Химически простое вещество или сплав</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>оборот</Word>
+        <Description>Способ словесного выражения</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>робинзон</Word>
+        <Description>Человек, живущий вдали от людей</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>анероид</Word>
+        <Description>Разновидность барометра</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>кромка</Word>
+        <Description>Продольный край ткани</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>мамонт</Word>
+        <Description>Вымершее млекопитающее</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>обочина</Word>
+        <Description>Окраина</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>шпонка</Word>
+        <Description>Соединительный элемент в пазах вала и насаженной на него детали</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>горница</Word>
+        <Description>Чистая половина крестьянской избы</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>стража</Word>
+        <Description>Отряд охраны</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>диктатура</Word>
+        <Description>Государственная власть, обеспечивающая полное политическое господство определённого класса, партии, группы</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>академия</Word>
+        <Description>Высшее научное учреждение</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>резидент</Word>
+        <Description>Полномочный представитель государства-метрополии при правительстве зависимого государства</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>очки</Word>
+        <Description>Оптический прибор</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>деталь</Word>
+        <Description>Мелкая часть машины</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>пригород</Word>
+        <Description>Населённый пункт, сливающийся с территорией большого города</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>любовник</Word>
+        <Description>Мужчина, который находится в связи с женщиной</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>инстинкт</Word>
+        <Description>Врождённая способность животных к бессознательному совершению целесообразных действий</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>вереск</Word>
+        <Description>Низкий вечнозелёный кустарничек с лилово-розовыми цветочками</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>аккордеон</Word>
+        <Description>Баян с клавиатурой фортепианного типа</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>анабиоз</Word>
+        <Description>Временное состояние организма, при котором жизненные процессы замедлены до минимума</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>причина</Word>
+        <Description>Основание для каких-нибудь действий</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>кубометр</Word>
+        <Description>Единица измерения объёма</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ноготь</Word>
+        <Description>Плоский роговой покров на конце пальца</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>порция</Word>
+        <Description>Кушанье или напиток в количестве, рассчитанном на одного человека</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>антитеза</Word>
+        <Description>Противопоставление, противоположность</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>гуманизм</Word>
+        <Description>Движение эпохи Возрождения, направленное к освобождению человеческой личности из-под гнёта феодализма и католицизма</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>антифриз</Word>
+        <Description>Незамерзающая жидкость, применяемая для охлаждения двигателей внутреннего сгорания</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>хартия</Word>
+        <Description>Документ значительного общественно-политического содержания</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>бартер</Word>
+        <Description>Обмен товарами и услугами без использования денег</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>блик</Word>
+        <Description>Слиток серебра, содержащий 2–7% свинца</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>хрен</Word>
+        <Description>Редьки не слаще</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>лотос</Word>
+        <Description>Крупный красивый южный цветок</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>пест</Word>
+        <Description>Короткий тяжёлый стержень для толчения, дробления</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>сокол</Word>
+        <Description>Хищная птица, способная долго и высоко летать парящим полётом</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>пандус</Word>
+        <Description>Наклонная плоскость, служащая для въезда автомашин к парадному входу в здание</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>атеизм</Word>
+        <Description>Воззрение, отвергающее всякие религиозные верования</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>остов</Word>
+        <Description>Внутренняя опорная часть предмета</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>псалом</Word>
+        <Description>Религиозное песнопение</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>нектар</Word>
+        <Description>В греческой мифологии:напиток богов, дававший им вечную юность и красоту</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>нобилитет</Word>
+        <Description>Знать, аристократия в древнем Риме</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>пиала</Word>
+        <Description>Сосуд для питья</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>лавка</Word>
+        <Description>Небольшой магазин</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>виола</Word>
+        <Description>Старинный струнный смычковый музыкальный инструмент</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>тембр</Word>
+        <Description>Специфическая окраска звука, свойственная данному музыкальному инструменту</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>жилет</Word>
+        <Description>Короткая одежда без рукавов</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>анонс</Word>
+        <Description>Объявление о предстоящих гастролях, спектаклях, концертах</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>поиск</Word>
+        <Description>Разведывательная боевая операция</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>шакал</Word>
+        <Description> Хищное животное семейства псовых, питающееся падалью</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>агава</Word>
+        <Description>Тропическое растение, разводимое в качестве декоративного</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>софистика</Word>
+        <Description>Усложнение, запутывание вопроса</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>гипноз</Word>
+        <Description>Психофизиологическое состояние, похожее на сон</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>анализ</Word>
+        <Description>Раздел математики</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>фаянс</Word>
+        <Description>Белая или цветная масса из особых сортов глины</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>журнал</Word>
+        <Description>Книга или тетрадь для периодической записи наблюдений, событий</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>омега</Word>
+        <Description>Буква греческого алфавита</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>метр</Word>
+        <Description>Единица длины</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>лассо</Word>
+        <Description>Аркан со скользящей петлёй, предназначенный для ловли животных</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>текст</Word>
+        <Description>Типографский шрифт</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>гудрон</Word>
+        <Description>Вязкая чёрная смолистая масса, сырьё для производства битумов</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>караул</Word>
+        <Description>Люди приставленные для охраны</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>взятка</Word>
+        <Description>Деньги или материальные ценности, даваемые как подкуп</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>сюита</Word>
+        <Description>Музыкальное произведение, состоящее из нескольких самостоятельных частей, объединённых общим художественным замыслом</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>осина</Word>
+        <Description>Лиственное дерево из семейства ивовых</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>брак</Word>
+        <Description>Семейные супружеские отношения</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>молоковоз</Word>
+        <Description>Автомобиль для перевозки молока</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>невидимка</Word>
+        <Description>Незаметная заколка для женской причёски</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>поташ</Word>
+        <Description>Карбонат калия</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>армяк</Word>
+        <Description>Старинная мужская верхняя одежда крестьян</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>аврал</Word>
+        <Description>Выполняемая всем коллективом спешная работа</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ложка</Word>
+        <Description>Предмет сервировки стола</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>волга</Word>
+        <Description>Марка отечественных автомобилей</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>астра</Word>
+        <Description>Садовое декоративное растение</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>спица</Word>
+        <Description>Тонкий, длинный, заострённый с двух сторон стержень</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>питон</Word>
+        <Description>Змея семейства удавов</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>амплуа</Word>
+        <Description>Устойчивые типы театральных ролей</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>галлон</Word>
+        <Description>Английская мера жидких и сыпучих тел</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ваза</Word>
+        <Description>Сосуд для цветов, фруктов</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>солнце</Word>
+        <Description>Гимнастическое упражнение</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>аноним</Word>
+        <Description>Автор, скрывший своё имя</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>флора</Word>
+        <Description>Растительный мир</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ябеда</Word>
+        <Description>Мелкий донос, клевета</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>скала</Word>
+        <Description>Отдельное резкое возвышение грунта</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>трещина</Word>
+        <Description>Место разрыва на поверхности чего-либо расколовшегося, лопнувшего</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>вой</Word>
+        <Description>Протяжный крик некоторых животных</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>гондола</Word>
+        <Description>Кабина аэростата</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>дьяк</Word>
+        <Description>Древнерусский чиновник</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>блуза</Word>
+        <Description>Предмет одежды</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ева</Word>
+        <Description>Жена Адама</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>дамка</Word>
+        <Description>Шашка, получившая право передвижения сразу на любое число клеток вперёд или назад</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>удой</Word>
+        <Description>Количество молока, получаемого от животного за определённый срок</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>доплата</Word>
+        <Description>Прибавка к какому-либо денежному вознаграждению или взыскани</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>актриса</Word>
+        <Description>Исполнительница ролей в театральных представлениях, в кино, на телевидении</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>табак</Word>
+        <Description>Высушенные и мелко изрезанные листья, употребляемые для курения, нюханья</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>эмиссия</Word>
+        <Description>Испускание электронов поверхностью твёрдого тела или жидкости</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>лопасть</Word>
+        <Description>Вращающаяся широкая часть какого–нибудь устройства, машины</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>горка</Word>
+        <Description>Система железнодорожных путей с уклоном для сортировки вагонов</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>глюкоза</Word>
+        <Description>Углевод, наиболее часто встречающийся в природе</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>кадушка</Word>
+        <Description>Небольшая деревянная ёмкость</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>чашка</Word>
+        <Description>Небольшой сосуд округлой формы из фарфора, фаянса</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>автобан</Word>
+        <Description>Автострада в Германии</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>утконос</Word>
+        <Description>Млекопитающее с плоским широким клювом наподобие утиного</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>лама</Word>
+        <Description>Южноамериканское вьючное животное</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>русак</Word>
+        <Description>Заяц, сохраняющий одну окраску зимой и летом</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>фут</Word>
+        <Description>Английская и старая русская мера длины</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>лопух</Word>
+        <Description>Репейник</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>енот</Word>
+        <Description>Лесной пушной зверь</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>цех</Word>
+        <Description>Отделение завода, фабрики</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>дисплей</Word>
+        <Description>Устройство визуального отображения информации на экране электронно-лучевого прибора</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>лак</Word>
+        <Description>Спиртовой раствор смолы для придания блеска различным предметам</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>приклад</Word>
+        <Description>Деталь стрелкового оружия, служащая для упора в плечо при выстреле</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>рай</Word>
+        <Description>Лёгкие и радующие условия, обстановка</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>щётка</Word>
+        <Description>Приспособление в электрической машине для проводки тока от вращающихся частей к неподвижным</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>усадьба</Word>
+        <Description>Отдельный дом с примыкающими к нему строениями, угодьями</Description>
     </SimpleWord>
 </SimpleWords>

@@ -5,11 +5,21 @@ public class SimpleXMLWord {
         this.word = word;
         this.description = description;
         this.length = length;
+        this.isUsed = false;
     }
 
     private String word;
     private String description;
     private int length;
+    private boolean isUsed;
+
+    public boolean isUsed() {
+        return isUsed;
+    }
+
+    public void setUsed(boolean used) {
+        isUsed = used;
+    }
 
     public String getWord() {
         return word;
