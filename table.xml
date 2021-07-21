@@ -1,15 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Table>
-    <Size>10</Size>
-    <Words>
-        <Word>
-            <Term>очередь</Term>>
-            <Definition>Порядок в следовании кого-чего–нибудь</Definition>
-            <IsHorizontal>1</IsHorizontal>>
-            <PosX>2</PosX>
-            <PosY>2</PosY>
-            <Lenght>7</Lenght>
-            <Written></Written>
-        </Word>>
-    </Words>
+    <Size>11</Size>
+    <Word>
+        <Term>катер</Term>
+        <Definition>Небольшое моторное судно</Definition>
+        <IsHorizontal>false</IsHorizontal>
+        <PosX>2</PosX>
+        <PosY>4</PosY>
+        <Length>5</Length>
+        <Written/>
+    </Word>
+    <Word>
+        <Term>знахарь</Term>
+        <Definition>Лекарь-самоучка, действующий собственными примитивными способами</Definition>
+        <IsHorizontal>true</IsHorizontal>
+        <PosX>3</PosX>
+        <PosY>2</PosY>
+        <Length>7</Length>
+        <Written/>
+    </Word>
+    <Word>
+        <Term>начинка</Term>
+        <Definition>То, что кладётся внутрь пирога, конфет, тушки</Definition>
+        <IsHorizontal>false</IsHorizontal>
+        <PosX>2</PosX>
+        <PosY>6</PosY>
+        <Length>7</Length>
+        <Written/>
+    </Word>
+    <Word>
+        <Term>скалка</Term>
+        <Definition>Деревянный валик для раскатывания чего-либо</Definition>
+        <IsHorizontal>true</IsHorizontal>
+        <PosX>8</PosX>
+        <PosY>4</PosY>
+        <Length>6</Length>
+        <Written/>
+    </Word>
+    <Word>
+        <Term>блик</Term>
+        <Definition>Слиток серебра, содержащий 2–7% свинца</Definition>
+        <IsHorizontal>false</IsHorizontal>
+        <PosX>5</PosX>
+        <PosY>8</PosY>
+        <Length>4</Length>
+        <Written/>
+    </Word>
 </Table>
