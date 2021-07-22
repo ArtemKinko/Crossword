@@ -13,6 +13,8 @@ public class Generator {
     private Dictionary dict;
 
     public GenerationWord Generate(GenerationWord word, int numWords){
+        GenerationWord tempWord = word;
+        int maxWords = 0;
         for (SimpleXMLWord w: dict.getWords().get(Math.min(word.getLength(), 12))) {
             curWords = 0;
             dict.ClearAllUsed();
@@ -25,8 +27,15 @@ public class Generator {
             AddPair(word);
             if (curWords >= numWords)
                 break;
+            else if (curWords > maxWords) {
+                maxWords = curWords;
+                tempWord = word;
+            }
         }
-        return word;
+        if (curWords >= numWords)
+            return word;
+        else
+            return tempWord;
     }
 
     private void AddPair(GenerationWord word){
