@@ -18,7 +18,7 @@ import java.io.File;
 import java.util.List;
 import java.util.Locale;
 
-public class XMLSaver {
+public class XMLWriter {
     public void TableExport(String path, List<Word> words, boolean fromGenerator, Table table) {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder;

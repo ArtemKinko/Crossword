@@ -3,7 +3,8 @@ package Pages;
 import Algorithms.Dictionary;
 import Algorithms.GenerationWord;
 import Algorithms.Generator;
-import Algorithms.XMLSaver;
+import Algorithms.XMLWriter;
+import Algorithms.XMLReader;
 import BaseClasses.Page;
 import BaseClasses.Word;
 import Panels.ExtraPanel;
@@ -12,6 +13,7 @@ import Panels.SaveGenPanel;
 import Panels.SizePanel;
 import Tables.GenerationTable;
 import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -45,9 +47,32 @@ public class GenerationPage extends Page {
         constraints.gridy = 0;
         add(pathDictionaryPanel, constraints);
 
+        pathDictionaryPanel.getPathButton().addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                pathDictionaryPanel.getFileChooser().setDialogTitle("Выберите файл словаря");
+                pathDictionaryPanel.getFileChooser().addChoosableFileFilter(new FileNameExtensionFilter("XML-files", "xml"));
+                pathDictionaryPanel.getFileChooser().setAcceptAllFileFilterUsed(false);
+                pathDictionaryPanel.getFileChooser().setFileSelectionMode(JFileChooser.FILES_ONLY);
+                int result = pathDictionaryPanel.getFileChooser().showOpenDialog(GenerationPage.this);
+                if (result == JFileChooser.APPROVE_OPTION) {
+                    pathDictionaryPanel.getPathField().setText(String.valueOf(pathDictionaryPanel.getFileChooser().getSelectedFile()));
+                    XMLReader reader = new XMLReader();
+                    String str = reader.DictionaryImport(pathDictionaryPanel.getFileChooser().getSelectedFile().getPath(), dictionary);
+                    extraPanel.setTerms(str);
+                }
+            }
+        });
+
+        // панель дополнительных настроек
+        extraPanel = new ExtraPanel();
+        constraints.gridy = 1;
+        constraints.ipady = 0;
+        add(extraPanel, constraints);
+
         // панель задания размера
         sizePanel = new SizePanel();
-        constraints.gridy = 1;
+        constraints.gridy = 2;
         add(sizePanel, constraints);
 
         // размер от 10 до 30
@@ -72,32 +97,6 @@ public class GenerationPage extends Page {
                 }
             });
 
-        // панель дополнительных настроек
-        extraPanel = new ExtraPanel();
-        constraints.gridy = 2;
-        constraints.ipady = 100;
-        add(extraPanel, constraints);
-
-        // слушатели для радио-кнопок
-        extraPanel.getRadioDraw().addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                sizePanel.getNumField().setEnabled(true);
-                getTable().getTableView().setBackground(Color.WHITE);
-                getTable().getTableView().setEnabled(true);
-            }
-        });
-
-        extraPanel.getRadioCount().addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                sizePanel.getNumField().setEnabled(false);
-                getTable().getTableView().setBackground(Color.LIGHT_GRAY);
-                getTable().getTableView().clearSelection();
-                getTable().getTableView().setEnabled(false);
-            }
-        });
-
         // панель сохранения
         saveGenPanel = new SaveGenPanel();
         constraints.ipady = 50;
@@ -115,10 +114,8 @@ public class GenerationPage extends Page {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String message = "";
-                if (extraPanel.getRadioDraw().isSelected()) {
-                    if (pathDictionaryPanel.getFileChooser().getSelectedFile() == null)
-                        message += "Не выбран словарь. ";
-                }
+                if (pathDictionaryPanel.getFileChooser().getSelectedFile() == null)
+                    message += "Не выбран словарь. ";
                 if (saveGenPanel.getFileChooser().getSelectedFile() == null)
                     message += "Не выбрана директория сохранения. ";
                 if (saveGenPanel.getNameField().getText().equals(""))
@@ -128,7 +125,6 @@ public class GenerationPage extends Page {
                     JOptionPane.showMessageDialog(GenerationPage.this, message);
                 else {
                     ((GenerationTable)getTable()).genMainWord();
-                    dictionary.ImportFromXML(pathDictionaryPanel.getFileChooser().getSelectedFile().getPath());
                     Generator generator = new Generator(dictionary);
                     GenerationWord genWord = ((GenerationTable) getTable()).getAllWords();
                     System.out.println(generator.Generate(genWord, ((GenerationTable)getTable()).getNumWords()));
@@ -137,7 +133,7 @@ public class GenerationPage extends Page {
 
                     String path = saveGenPanel.getFileChooser().getSelectedFile().getPath() + "\\" +
                             saveGenPanel.getNameField().getText() + ".xml";
-                    XMLSaver saver = new XMLSaver();
+                    XMLWriter saver = new XMLWriter();
                     saver.TableExport(path, generator.getWordList(), true, getTable());
                     JOptionPane.showMessageDialog(GenerationPage.this, "Успешно сохранено!");
                 }

@@ -25,50 +25,6 @@ public class Dictionary {
         return words;
     }
 
-    // парсер xml
-    public void ImportFromXML(String path) {
-        try {
-            DocumentBuilder documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-            Document document = (Document)documentBuilder.parse(path);
-
-            Node root = document.getDocumentElement();
-            System.out.println("Список слов:");
-            System.out.println();
-
-            // просматриваем все подэлементы
-            NodeList words = root.getChildNodes();
-            for (int i = 0; i < words.getLength(); i++) {
-                Node word = words.item(i);
-                if (word.getNodeType() != Node.TEXT_NODE) {
-                    NodeList wordProps = word.getChildNodes();
-                    int index = 0;
-                    String w = "";
-                    String d = "";
-                    int l = 0;
-                    for (int j = 0; j < wordProps.getLength(); j++) {
-                        Node wordProp = wordProps.item(j);
-                        if (wordProp.getNodeType() != Node.TEXT_NODE) {
-                            if (index == 0) {
-                                w = wordProp.getChildNodes().item(0).getTextContent();
-                                l = w.length();
-                                index++;
-                            }
-                            else {
-                                d = wordProp.getChildNodes().item(0).getTextContent();
-                            }
-                        }
-                    }
-                    SimpleXMLWord SimpleWord = new SimpleXMLWord(w, d, l);
-                    this.words.get(l < 13 ? l : 12).add(SimpleWord);
-                }
-            }
-
-        } catch (ParserConfigurationException | SAXException | IOException e) {
-            e.printStackTrace();
-        }
-        printAllWords();
-    }
-
     public void ClearAllUsed() {
         for (List<SimpleXMLWord> list: words)
             for (SimpleXMLWord w: list)

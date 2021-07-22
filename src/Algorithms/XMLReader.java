@@ -131,4 +131,52 @@ public class XMLReader {
         }
         return definitions;
     }
+
+    // парсер xml
+    public String DictionaryImport(String path, Dictionary dict) {
+        String list = "";
+        int listIndex = 0;
+        try {
+            DocumentBuilder documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+            Document document = (Document)documentBuilder.parse(path);
+
+            Node root = document.getDocumentElement();
+            System.out.println("Список слов:");
+            System.out.println();
+
+            // просматриваем все подэлементы
+            NodeList words = root.getChildNodes();
+            for (int i = 0; i < words.getLength(); i++) {
+                Node word = words.item(i);
+                if (word.getNodeType() != Node.TEXT_NODE) {
+                    NodeList wordProps = word.getChildNodes();
+                    int index = 0;
+                    String w = "";
+                    String d = "";
+                    int l = 0;
+                    for (int j = 0; j < wordProps.getLength(); j++) {
+                        Node wordProp = wordProps.item(j);
+                        if (wordProp.getNodeType() != Node.TEXT_NODE) {
+                            if (index == 0) {
+                                w = wordProp.getChildNodes().item(0).getTextContent();
+                                l = w.length();
+                                index++;
+                            }
+                            else {
+                                d = wordProp.getChildNodes().item(0).getTextContent();
+                            }
+                        }
+                    }
+                    SimpleXMLWord SimpleWord = new SimpleXMLWord(w, d, l);
+                    dict.getWords().get(l < 13 ? l : 12).add(SimpleWord);
+                    listIndex++;
+                    list += String.valueOf(listIndex) + ". " + SimpleWord.getWord() + "\n";
+                }
+            }
+
+        } catch (ParserConfigurationException | SAXException | IOException e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
 }

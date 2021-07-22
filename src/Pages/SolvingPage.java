@@ -1,24 +1,16 @@
 package Pages;
 
-import Algorithms.GenerationWord;
-import Algorithms.Generator;
 import Algorithms.XMLReader;
-import Algorithms.XMLSaver;
+import Algorithms.XMLWriter;
 import BaseClasses.Page;
-import BaseClasses.Word;
 import Panels.DefinitionPanel;
-import Panels.PathDictionaryPanel;
 import Panels.PathTablePanel;
-import Tables.GenerationTable;
 import Tables.SolvingTable;
-import Tables.Table;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
-import java.util.List;
 
 public class SolvingPage extends Page {
     public SolvingPage() {
@@ -77,7 +69,7 @@ public class SolvingPage extends Page {
                 if (!message.equals(""))
                     JOptionPane.showMessageDialog(SolvingPage.this, message);
                 else {
-                    XMLSaver saver = new XMLSaver();
+                    XMLWriter saver = new XMLWriter();
                     saver.TableExport(pathTablePanel.getFileChooser().getSelectedFile().getPath(),
                             ((SolvingTable)getTable()).getWords(), false, (SolvingTable)getTable());
                     JOptionPane.showMessageDialog(SolvingPage.this, "Успешно сохранено!");

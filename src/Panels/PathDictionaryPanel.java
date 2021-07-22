@@ -28,23 +28,11 @@ public class PathDictionaryPanel extends JPanel{
         constraints.gridx = 1;
         constraints.ipadx = 20;
         constraints.ipady = 3;
-        JButton pathButton = new JButton("...");
+        pathButton = new JButton("...");
         add(pathButton, constraints);
 
         // подключение кнопки для выбора файла
         fileChooser = new JFileChooser();
-        pathButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                fileChooser.setDialogTitle("Выберите файл словаря");
-                fileChooser.addChoosableFileFilter(new FileNameExtensionFilter("XML-files", "xml"));
-                fileChooser.setAcceptAllFileFilterUsed(false);
-                fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
-                int result = fileChooser.showOpenDialog(PathDictionaryPanel.this);
-                if (result == JFileChooser.APPROVE_OPTION)
-                    pathField.setText(String.valueOf(fileChooser.getSelectedFile()));
-            }
-        });
     }
 
     // выбор файла
@@ -57,5 +45,11 @@ public class PathDictionaryPanel extends JPanel{
     private JTextField pathField;
     public JTextField getPathField() {
         return pathField;
+    }
+
+    // кнопка открытия меню с выбором файла словаря
+    private JButton pathButton;
+    public JButton getPathButton() {
+        return pathButton;
     }
 }
