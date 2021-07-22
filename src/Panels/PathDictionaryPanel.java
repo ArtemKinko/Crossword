@@ -1,11 +1,9 @@
 package Panels;
 
 import javax.swing.*;
-import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
+// класс, реализующий панель выбора словаря
 public class PathDictionaryPanel extends JPanel{
     public PathDictionaryPanel() {
         setBorder(BorderFactory.createTitledBorder("Путь к словарю"));
@@ -36,19 +34,19 @@ public class PathDictionaryPanel extends JPanel{
     }
 
     // выбор файла
-    private JFileChooser fileChooser;
+    private final JFileChooser fileChooser;
     public JFileChooser getFileChooser() {
         return fileChooser;
     }
 
     // поле с директорией
-    private JTextField pathField;
+    private final JTextField pathField;
     public JTextField getPathField() {
         return pathField;
     }
 
     // кнопка открытия меню с выбором файла словаря
-    private JButton pathButton;
+    private final JButton pathButton;
     public JButton getPathButton() {
         return pathButton;
     }

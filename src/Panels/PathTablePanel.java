@@ -3,9 +3,8 @@ package Panels;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
+// класс, реализующий панель выбора файла таблицы, сохранения и загрузки
 public class PathTablePanel extends JPanel {
     public PathTablePanel() {
         setBorder(BorderFactory.createTitledBorder("Путь к таблице"));
@@ -33,17 +32,14 @@ public class PathTablePanel extends JPanel {
 
         // подключение кнопки для выбора файла
         fileChooser = new JFileChooser();
-        pathButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                fileChooser.setDialogTitle("Выберите файл словаря");
-                fileChooser.addChoosableFileFilter(new FileNameExtensionFilter("XML-files", "xml"));
-                fileChooser.setAcceptAllFileFilterUsed(false);
-                fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
-                int result = fileChooser.showOpenDialog(PathTablePanel.this);
-                if (result == JFileChooser.APPROVE_OPTION)
-                    pathField.setText(String.valueOf(fileChooser.getSelectedFile()));
-            }
+        pathButton.addActionListener(e -> {
+            fileChooser.setDialogTitle("Выберите файл словаря");
+            fileChooser.addChoosableFileFilter(new FileNameExtensionFilter("XML-files", "xml"));
+            fileChooser.setAcceptAllFileFilterUsed(false);
+            fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
+            int result = fileChooser.showOpenDialog(PathTablePanel.this);
+            if (result == JFileChooser.APPROVE_OPTION)
+                pathField.setText(String.valueOf(fileChooser.getSelectedFile()));
         });
 
         // прикрепляем кнопку сохранения
@@ -61,25 +57,22 @@ public class PathTablePanel extends JPanel {
     }
 
     // выбор файла
-    private JFileChooser fileChooser;
+    private final JFileChooser fileChooser;
     public JFileChooser getFileChooser() {
         return fileChooser;
     }
 
     // поле с директорией
-    private JTextField pathField;
-    public JTextField getPathField() {
-        return pathField;
-    }
+    private final JTextField pathField;
 
     // кнопка сохранения
-    private JButton saveButton;
+    private final JButton saveButton;
     public JButton getSaveButton() {
         return saveButton;
     }
 
     // кнопка загрузки
-    private JButton loadButton;
+    private final JButton loadButton;
     public JButton getLoadButton() {
         return loadButton;
     }

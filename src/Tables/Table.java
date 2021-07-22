@@ -2,11 +2,10 @@ package Tables;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;
 import java.awt.*;
-import java.util.List;
 
+// класс таблицы
 public class Table {
     public Table() {
         size = 10;
@@ -40,24 +39,18 @@ public class Table {
             model.setColumnCount(size);
         }
 
-        System.out.println(dx);
-
         TableView.setRowHeight(500 / size);
         TableView.setPreferredSize(new Dimension(500, 500));
         TableView.setFont(new Font("Serif", Font.BOLD, 500 / size / 2));
-        //TableColumn column = new TableColumn(1);
-        //TableView.addColumn(column);
         this.size = size;
     }
 
     public JTable getTableView() {
         return TableView;
     }
-
     public void setTableView(JTable tableView) {
         TableView = tableView;
     }
-
     private JTable TableView;  // отображаемая таблица
 }
 

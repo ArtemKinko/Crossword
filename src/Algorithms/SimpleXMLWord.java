@@ -1,5 +1,6 @@
 package Algorithms;
 
+// класс, реализующий слово словаря
 public class SimpleXMLWord {
     SimpleXMLWord(String word, String description, int length) {
         this.word = word;

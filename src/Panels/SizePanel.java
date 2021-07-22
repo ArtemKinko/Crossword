@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
+// класс, реализующий панель для
 public class SizePanel extends JPanel {
     public SizePanel() {
         setBorder(BorderFactory.createTitledBorder("Размер поля"));
@@ -29,12 +30,9 @@ public class SizePanel extends JPanel {
         numField.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
-                String value = numField.getText();
-                int l = value.length();
                 numField.setEditable(e.getKeyChar() >= '0' && e.getKeyChar() <= '9' || e.getKeyCode() == 8);
             }
         });
-
         add(numField, constraints);
     }
 
@@ -42,5 +40,5 @@ public class SizePanel extends JPanel {
         return numField;
     }
 
-    private JTextField numField;
+    private final JTextField numField;
 }

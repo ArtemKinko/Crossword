@@ -9,9 +9,8 @@ import Tables.SolvingTable;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
+// класс страницы для решения кроссвордов
 public class SolvingPage extends Page {
     public SolvingPage() {
         // устанавливаем генерационную таблицу
@@ -41,39 +40,35 @@ public class SolvingPage extends Page {
         add(pathTablePanel, constraints);
 
         // при нажатии на кнопку загрузки
-        pathTablePanel.getLoadButton().addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String message = "";
-                if (pathTablePanel.getFileChooser().getSelectedFile() == null)
-                    message += "Не выбрана таблица. ";
-                if (!message.equals(""))
-                    JOptionPane.showMessageDialog(SolvingPage.this, message);
-                else {
-                    XMLReader reader = new XMLReader();
-                    String definitions = reader.TableImport(pathTablePanel.getFileChooser().getSelectedFile().getPath(),
-                            ((SolvingTable)getTable()).getWords(), (SolvingTable)getTable());
-                    definitionPanel.setDefinitions(definitions);
-                    JOptionPane.showMessageDialog(SolvingPage.this, "Успешно сохранено!");
-                }
+        pathTablePanel.getLoadButton().addActionListener(e -> {
+            String message = "";
+            if (pathTablePanel.getFileChooser().getSelectedFile() == null)
+                message += "Не выбрана таблица. ";
+            if (!message.equals(""))
+                JOptionPane.showMessageDialog(SolvingPage.this, message);
+            else {
+                // парсим таблицу из файла
+                XMLReader reader = new XMLReader();
+                String definitions = reader.TableImport(pathTablePanel.getFileChooser().getSelectedFile().getPath(),
+                        ((SolvingTable)getTable()).getWords(), (SolvingTable)getTable());
+                definitionPanel.setDefinitions(definitions);
+                JOptionPane.showMessageDialog(SolvingPage.this, "Успешно сохранено!");
             }
         });
 
         // при нажатии на кнопку сохранения
-        pathTablePanel.getSaveButton().addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String message = "";
-                if (pathTablePanel.getFileChooser().getSelectedFile() == null)
-                    message += "Не загружена таблица. ";
-                if (!message.equals(""))
-                    JOptionPane.showMessageDialog(SolvingPage.this, message);
-                else {
-                    XMLWriter saver = new XMLWriter();
-                    saver.TableExport(pathTablePanel.getFileChooser().getSelectedFile().getPath(),
-                            ((SolvingTable)getTable()).getWords(), false, (SolvingTable)getTable());
-                    JOptionPane.showMessageDialog(SolvingPage.this, "Успешно сохранено!");
-                }
+        pathTablePanel.getSaveButton().addActionListener(e -> {
+            String message = "";
+            if (pathTablePanel.getFileChooser().getSelectedFile() == null)
+                message += "Не загружена таблица. ";
+            if (!message.equals(""))
+                JOptionPane.showMessageDialog(SolvingPage.this, message);
+            else {
+                // сохраняем таблицу в файл
+                XMLWriter saver = new XMLWriter();
+                saver.TableExport(pathTablePanel.getFileChooser().getSelectedFile().getPath(),
+                        ((SolvingTable)getTable()).getWords(), false, getTable());
+                JOptionPane.showMessageDialog(SolvingPage.this, "Успешно сохранено!");
             }
         });
 
@@ -90,22 +85,19 @@ public class SolvingPage extends Page {
         add(checkButton, constraints);
 
         // при нажатии на кнопку проверки решения
-        checkButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String message = "";
-                if (pathTablePanel.getFileChooser().getSelectedFile() == null)
-                    message += "Не загружена таблица. ";
-                if (!message.equals(""))
-                    JOptionPane.showMessageDialog(SolvingPage.this, message);
-                else {
-                    JOptionPane.showMessageDialog(SolvingPage.this, "Верно введено слов: " +
-                            String.valueOf(((SolvingTable)getTable()).getRightWords()));
-                }
+        checkButton.addActionListener(e -> {
+            String message = "";
+            if (pathTablePanel.getFileChooser().getSelectedFile() == null)
+                message += "Не загружена таблица. ";
+            if (!message.equals(""))
+                JOptionPane.showMessageDialog(SolvingPage.this, message);
+            else {
+                JOptionPane.showMessageDialog(SolvingPage.this, "Верно введено слов: " +
+                        ((SolvingTable)getTable()).getRightWords());
             }
         });
     }
 
-    private PathTablePanel pathTablePanel;
+    private final PathTablePanel pathTablePanel;
     private DefinitionPanel definitionPanel;
 }

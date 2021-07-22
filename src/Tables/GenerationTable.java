@@ -7,9 +7,8 @@ import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.util.ArrayList;
-import java.util.List;
 
+// класс таблицы для генерации
 public class GenerationTable extends Table {
     public GenerationTable(int tempSize) {
 
@@ -45,6 +44,7 @@ public class GenerationTable extends Table {
 
             TableModel model = getTableView().getModel();
 
+            // для каждой выделенной ячейки ставим символ
             for (int i: rows) {
                 for (int j: columns)
                     model.setValueAt(model.getValueAt(i, j) == "█" ? "" : "█", i, j);
@@ -68,10 +68,10 @@ public class GenerationTable extends Table {
             while (k < getSize()) {
                 if (model.getValueAt(x, k) == "█") {
 
-                    // ТУТ ПОИСК ОБЩИХ ТОЧЕК ДЛЯ ГОРИЗОНТАЛЬНОГО СЛОВА
+                    // поиск общих точек для горизонтального слова
                     if (x != 0) {
                         if (model.getValueAt(x - 1, k) == "█") {
-                            // ЕСЛИ НАЙДЕНО СЛОВО ВЫШЕ ГОРИЗОНТАЛИ
+                            // если найдено слово выше горизонтали
                             int newX = x;
                             int pos = 0;
                             while (newX > 0) {
@@ -83,7 +83,7 @@ public class GenerationTable extends Table {
                             word.addPair(addNewWord(newX + 1, k, !isHorizontal), len + 1, pos);
                         }
                         else if (x != (getSize()-1)) {
-                            // ЕСЛИ ВЫШЕ НЕТ, НО НИЖЕ ЕСТЬ
+                            // если ниже
                             if (model.getValueAt(x + 1, k) == "█" && model.getValueAt(x - 1, k) != "OK") {
                                 if (k == y)
                                     model.setValueAt("OK", x, k);
@@ -110,14 +110,15 @@ public class GenerationTable extends Table {
             }
         }
         else {
+            // для вертикальных слов
             word.setHorizontal(false);
             int k = x;
             while (k < getSize()) {
                 if (model.getValueAt(k, y) == "█" || model.getValueAt(k, y) == "OK") {
-                    // ТУТ ПОИСК ОБЩИХ ТОЧЕК ДЛЯ ВЕРТИКАЛЬНОГО СЛОВА
+                    // поиск общих точек
                     if (y != 0) {
                         if (model.getValueAt(k, y - 1) == "█") {
-                            // ЕСЛИ НАЙДЕНО СЛОВО ЛЕВЕЕ ВЕРТИКАЛИ
+                            // если найдено слово левее вертикали
                             int newY = y;
                             int pos = 0;
                             while (newY > 0) {
@@ -129,7 +130,7 @@ public class GenerationTable extends Table {
                             word.addPair(addNewWord(k, newY + 1, !isHorizontal), len + 1, pos);
                         }
                         else if (y != (getSize()-1)) {
-                            // ЕСЛИ ЛЕВЕЕ НЕТ, А ПРАВЕЕ ЕСТЬ
+                            // если есть правее
                             if (model.getValueAt(k, y + 1) == "█" && model.getValueAt(k, y - 1) != "OK")
                                 word.addPair(addNewWord(k, y, !isHorizontal), len + 1, 1);
                             else model.setValueAt("OK", k, y);
@@ -156,28 +157,24 @@ public class GenerationTable extends Table {
     public void genMainWord() {
         TableModel model = getTableView().getModel();
         numWords = 0;
-
         search:
         for (int i = 0; i < getSize(); i++)
             for (int j = 0; j < getSize(); j++) {
                 if (model.getValueAt(i, j) == "█") {
                     // если первое слово вертикально
                     if (j == (getSize() - 1)) {
-                        System.out.println("ВЕРТИКАЛЬНО");
                         allWords = addNewWord(i, j, false);
                     }
                     else if (j < getSize() - 1) {
                         if (model.getValueAt(i, j + 1) != "█") {
-                            System.out.println("ВЕРТИКАЛЬНО");
                             allWords = addNewWord(i, j, false);
                         }
                         else {
-                            System.out.println("ГОРИЗОНТАЛЬНО");
+                            // если горизонтально
                             allWords = addNewWord(i, j, true);
                         }
                     }
                     else {
-                        System.out.println("ГОРИЗОНТАЛЬНО");
                         allWords = addNewWord(i, j, true);
                     }
                     break search;

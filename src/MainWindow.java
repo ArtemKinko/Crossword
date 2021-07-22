@@ -2,8 +2,8 @@ import Pages.GenerationPage;
 import Pages.SolvingPage;
 
 import javax.swing.*;
-import java.awt.*;
 
+// основное окно программы
 public class MainWindow extends JFrame {
 
     MainWindow() {

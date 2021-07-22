@@ -1044,4 +1044,812 @@
         <Word>усадьба</Word>
         <Description>Отдельный дом с примыкающими к нему строениями, угодьями</Description>
     </SimpleWord>
+    <SimpleWord>
+        <Word>наряд</Word>
+        <Description>Воинское задание, поручаемая военнослужащему работа</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ода</Word>
+        <Description>Оркестрово-хоровое произведение торжественного характера</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>свобода</Word>
+        <Description>Отсутствие стеснений и ограничений</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>индейка</Word>
+        <Description>Крупная домашняя птица</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>поганка</Word>
+        <Description>Ядовитый гриб</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>караван</Word>
+        <Description>Группа вьючных животных, перевозящих грузы, людей</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>узел</Word>
+        <Description>Вещи, связанные в кусок мягкого материала</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>кадр</Word>
+        <Description>Отдельное изображение, на теле- или киноэкране</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>утёс</Word>
+        <Description>Отвесная скала</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>окоп</Word>
+        <Description>Земляное укрепление, укрытие от пуль, снарядов</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>истукан</Word>
+        <Description>Языческий божок, идол, статуя</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>тягач</Word>
+        <Description>Автомобиль для тяги прицепных машин, платформ, повозок</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>барыш</Word>
+        <Description>Доход от коммерческой операции</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>клака</Word>
+        <Description>Люди, нанятые для аплодирования артистам, ораторам или освистывания их</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>сук</Word>
+        <Description>Крупный боковой отросток от ствола дерева</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>азу</Word>
+        <Description>Вид мясного кушанья</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>овал</Word>
+        <Description>Замкнутое яйцевидное очертание чего–нибудь</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>дата</Word>
+        <Description>Пометка на документе, письме о времени его написания</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>матрица</Word>
+        <Description>Таблица математических элементов, состоящая из строк и столбцов</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>акафист</Word>
+        <Description>Род хвалебного церковного песнопения</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>психика</Word>
+        <Description>Душевный склад человека</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>омар</Word>
+        <Description>Крупный морской рак</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>находка</Word>
+        <Description>Обнаруженная вещь</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>уклейка</Word>
+        <Description>Мелкая пресноводная рыба семейства карповых</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>кулак</Word>
+        <Description>Богатый крестьянин-собственник</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ложка</Word>
+        <Description>Предмет для зачерпывания пищи</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>хор</Word>
+        <Description>То же, что оркестр</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>луч</Word>
+        <Description>Остронаправленный поток частиц энергии</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>боярин</Word>
+        <Description>В Московской Руси: крупный землевладелец, представитель высшего управляющего слоя</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>отпуск</Word>
+        <Description>Временное освобождение от службы, работы</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>шурин</Word>
+        <Description>Брат жены</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>косилка</Word>
+        <Description>Сельскохозяйственная машин</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>наливка</Word>
+        <Description>Род вина — сладкая настойка на фруктах, ягодах</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>метрика</Word>
+        <Description>Учение о стихотворных размерах и метрах</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>флагман</Word>
+        <Description>Командующий крупным соединением военных кораблей, эскадрой</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>том</Word>
+        <Description>Отдельная книга из собрания сочинений</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>альбом</Word>
+        <Description>Тетрадь из плотных листов в переплёте для рисунков</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>гобелен</Word>
+        <Description>Плотная декоративная ткань с вытканными узорами</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>датчик</Word>
+        <Description>Элемент измерительного, сигнального, или управляющего устройства</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>тесьма</Word>
+        <Description>Узкая тканая или плетёная полоска</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>качели</Word>
+        <Description>Сиденье, подвешенное к столбам или перекладине</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>лагерь</Word>
+        <Description>Стоянка войск под открытым небом, в палатках</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>гам</Word>
+        <Description>Нестройный гул голосов</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>комбайн</Word>
+        <Description>Сложная машина, агрегат, выполняющий работу нескольких более простых машин</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>делянка</Word>
+        <Description>Участок земли для обработки, застройки и т.п.</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>разлука</Word>
+        <Description>Жизнь вдали от того, кто близок, дорог</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>наценка</Word>
+        <Description>Сумма, на которую повышена цена на что–нибудь</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>январь</Word>
+        <Description>Первый месяц года</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ондатра</Word>
+        <Description>Грызун с ценным мехом темно-бурого цвета</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>дуплет</Word>
+        <Description>Удар, когда шар ударяется о борт бильярда и, отскакивая под углом, попадает в цель</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>вигвам</Word>
+        <Description>Жилище североамериканских индейцев из коры или кож</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>пескарь</Word>
+        <Description>Маленькая речная рыба семейства карповых</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>соломка</Word>
+        <Description>Специально обработанные полые стебли злаков, употребляемые для художественных поделок, сумок, шляп</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>скамья</Word>
+        <Description>Разновидность сиденья</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>тайник</Word>
+        <Description>Шкатулка с секретным доступом</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>аналог</Word>
+        <Description>Нечто сходное, подобное чему–нибудь</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>кафтан</Word>
+        <Description>Старинная мужская верхняя одежда</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>личинка</Word>
+        <Description>Стадия индивидуального развития многих животных</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>морковь</Word>
+        <Description>Корнеплод с оранжевым сладковатым утолщённым корнем</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>генетик</Word>
+        <Description>Специалист, изучающий законы наследственности и изменчивости организмов</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>кусачки</Word>
+        <Description>Острые щипцы для резки проволоки, кусков металла</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>вафля</Word>
+        <Description>Кондитерское изделие</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>шмель</Word>
+        <Description>Родственное пчеле насекомое</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>кум</Word>
+        <Description>Крёстный отец по отношению к родителям крестника</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>тюк</Word>
+        <Description>Большой мягкий перевязанный свёрток</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>мода</Word>
+        <Description>Совокупность привычек и вкусов, господствующих в определённое время</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>аренда</Word>
+        <Description>Предоставление какого-либо имущества во временное пользование за определённую плату</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>мичман</Word>
+        <Description>В военно-морском флоте: воинское звание лиц, добровольно проходящих службу сверх установленного срока</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>секира</Word>
+        <Description>Боевой топор с длинной рукоятью</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>гранула</Word>
+        <Description>Лекарственная форма в виде крупинок</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>панацея</Word>
+        <Description>Средство, избавляющее от всех зол, помогающее при решении всех проблем</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>черенок</Word>
+        <Description>Небольшой отрезок побега с почками от плодового дерева, применяемый для прививки, посадки</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>колпак</Word>
+        <Description>Мягкий конусообразный головной убор</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>монтаж</Word>
+        <Description>Сборка и установка машин, сооружений</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>халифат</Word>
+        <Description>Система мусульманской феодальной теократии</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>скипетр</Word>
+        <Description>Знак власти монарха</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>аббат</Word>
+        <Description>Настоятель мужского католического монастыря</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>паломник</Word>
+        <Description>Странствующий богомолец</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>раковина</Word>
+        <Description>Пустота в бетоне</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>резьба</Word>
+        <Description>Выделка разных узоров на дереве, кости</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>йогурт</Word>
+        <Description>Слабокислый молочный продукт</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>сиг</Word>
+        <Description>Северная пресноводная промысловая рыба</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>лот</Word>
+        <Description>Партия товара</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ларёк</Word>
+        <Description>Торговая палатка</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>лилия</Word>
+        <Description>Луковичное растение с крупными красивыми цветками</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>рондо</Word>
+        <Description>Стихотворение из пятнадцати строк со сложным чередованием рифм</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>символ</Word>
+        <Description>Принятое в науке условное обозначение какой–нибудь единицы, величины</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>клешня</Word>
+        <Description>Конечность рака или краба</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>колонок</Word>
+        <Description>Хищное млекопитающее семейства куньих</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>карат</Word>
+        <Description>Мера массы алмазов и других драгоценных камней</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>гогот</Word>
+        <Description>Крики гусей</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ролик</Word>
+        <Description>Небольшой рулон</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>амбар</Word>
+        <Description>Сооружение для хранения зерна, рыбы, различной утвари</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>лес</Word>
+        <Description>Множество деревьев, растущих на большом пространстве</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>гелий</Word>
+        <Description>Инертный газ без цвета и запаха</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>карантин</Word>
+        <Description>Система мер для предупреждения распространения инфекционных заболеваний</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>романтик</Word>
+        <Description>Человек, склонный идеализировать действительность</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>егоза</Word>
+        <Description>Слишком подвижный человек</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>саженец</Word>
+        <Description>Молодое растение, выращенное из черенка</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>насморк</Word>
+        <Description>Один из симптомов простуды</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>аллергия</Word>
+        <Description>Реакция иммунной системы организма на обычно безвредные вещества.</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>фон</Word>
+        <Description>Общие условия, обстановка, в которой что–нибудь происходит</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>такса</Word>
+        <Description>Небольшая охотничья собака</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>яблоко</Word>
+        <Description>Шарообразное тело глаза</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>иск</Word>
+        <Description>Заявление в суд о защите своего нарушенного права</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>триатлон</Word>
+        <Description>Вид спорта, включающий три скоростных спортивных состязания</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>спонсор</Word>
+        <Description>Лицо или предприятие, выступающее в качестве финансирующей стороны</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ханство</Word>
+        <Description>Страна, область, управляемая ханом</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>окуляр</Word>
+        <Description>В оптическом приборе: часть, обращённая к глазу наблюдателя</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>баржа</Word>
+        <Description>Грузовое несамоходное судно</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>легенда</Word>
+        <Description>Вымышленные сведения о себе у того, кто выполняет секретное задание</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>обида</Word>
+        <Description>Чувство, вызванное несправедливым огорчением</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>левша</Word>
+        <Description>Человек, предпочтительно пользующийся левой рукой вместо правой</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>озеро</Word>
+        <Description>Природный водоём с замедленным водообменом</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>динго</Word>
+        <Description>Дикая австралийская собака</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>колун</Word>
+        <Description>Тяжёлый топор с тупым лезвием</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>кабан</Word>
+        <Description>Дикая свинья, вепрь</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>колонка</Word>
+        <Description>Техническое устройство в форме цилиндра</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>распорка</Word>
+        <Description>Брус, устанавливаемый в различных конструкциях для придания частям устойчивости</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>тритон</Word>
+        <Description>Спутник планеты Нептун</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>гангстер</Word>
+        <Description>Профессиональный бандит, убийца, участник грабительской шайки</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>волчок</Word>
+        <Description>Детская игрушка</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>айран</Word>
+        <Description>Сквашенное коровье молоко</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>мыс</Word>
+        <Description>Выдающийся остриём участок, часть чего–нибудь</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>плюс</Word>
+        <Description>Выгодная сторона, преимущество</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>обилие</Word>
+        <Description>Богатство, избыток материальных благ</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>огурец</Word>
+        <Description>Огородное растение семейства тыквенных</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>рой</Word>
+        <Description>Семья пчёл</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>тромб</Word>
+        <Description>Кровяной сгусток, образующийся в кровеносном сосуде или в полости сердца</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>базис</Word>
+        <Description>Название одной из образующих плоскостей кристаллического тела</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>икона</Word>
+        <Description>Живописное изображение Бога, святого или святых</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>траст</Word>
+        <Description>Процесс доверительного управления собственностью</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>сквер</Word>
+        <Description>Небольшой общественный сад</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>сад</Word>
+        <Description>Участок земли, засаженный деревьями, кустами, цветами</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>курорт</Word>
+        <Description>Местность с природными лечебным средствами</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>европа</Word>
+        <Description>Спутник Юпитера</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ядро</Word>
+        <Description>Часть клетки животного и растительного организма</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>имам</Word>
+        <Description>Глава мусульманской общины</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>реактив</Word>
+        <Description>Вещество, присоединение которого к другому веществу вызывает определённую химическую реакцию</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>клуб</Word>
+        <Description>Культурно-просветительное учреждение</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>дилер</Word>
+        <Description>Предприниматель, торгующий в розницу продукцией, которую он закупил оптом</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>отбой</Word>
+        <Description>Сигнал к отступлению</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>остаток</Word>
+        <Description>В математике: величина, получаемая при вычитании из делимого произведения делителя на целое частное</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>особа</Word>
+        <Description>Личность, лицо</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>бит</Word>
+        <Description>Единица измерения количества информации</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>бас</Word>
+        <Description>Медный духовой музыкальный инструмент низкого регистра и тембра</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>сговор</Word>
+        <Description>Взаимная договорённость</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>курсив</Word>
+        <Description>Одно из начертаний рисунка типографского шрифта</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ступа</Word>
+        <Description>Тяжёлый металлический, деревянный или каменный сосуд, в котором толкут что–нибудь</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>прах</Word>
+        <Description>Тело человека после смерти</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>аудит</Word>
+        <Description>Проверка финансов предприятия</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>гимнаст</Word>
+        <Description>Человек, искусный в упражнениях на развитие ловкости и мускулатуры</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>полк</Word>
+        <Description>Воинская часть, обычно входящая в состав дивизии или бригады</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>клей</Word>
+        <Description>Липкий затвердевающий состав для плотного соединения</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>отвар</Word>
+        <Description>Жидкая лекарственная форма</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>пилот</Word>
+        <Description>Спортсмен, управляющий гоночным автомобилем</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>томат</Word>
+        <Description>Род травянистых растений семейства паслёновых</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>фобия</Word>
+        <Description>Навязчивое состояние страха</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>вяз</Word>
+        <Description>Лиственное дерево с ценной древесиной</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>николай</Word>
+        <Description>Мужское имя</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>лещ</Word>
+        <Description>Пресноводная рыба семейства карповых с плоским телом</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>канал</Word>
+        <Description>Линия связи, коммуникации</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>майор</Word>
+        <Description>Воинское звание</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>каботаж</Word>
+        <Description>Судоходство между портами одной страны</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>топор</Word>
+        <Description>Старинное боевое оружие</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>фен</Word>
+        <Description>Прибор для сушки волос подогретым воздухом</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>витамин</Word>
+        <Description>Органические соединение, необходимое для питания человека и животных</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ага</Word>
+        <Description>Гигантская жаба</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>мазок</Word>
+        <Description>Наложение краски отрывистым, коротким движением кисти</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>коран</Word>
+        <Description>Священная книга ислама</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>гусар</Word>
+        <Description>В царской армии: военнослужащий частей лёгкой кавалерии</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>топот</Word>
+        <Description>Звук от ударов ног о твёрдую поверхность</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>лото</Word>
+        <Description>Игра на особых картах с номерами, которые закрываются фишками</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ишак</Word>
+        <Description>Осел</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>чемодан</Word>
+        <Description>Род сундука для вещей, багажа</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>домовой</Word>
+        <Description>В славянской мифологии: сказочное существо, обитающее в доме</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>омела</Word>
+        <Description>Кустарник с ядовитыми белыми ягодами</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>атлантида</Word>
+        <Description>По древнегреческому преданию, некогда существовавший крупный остров</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>аудитория</Word>
+        <Description>Помещение, предназначенное для чтения лекций, докладов</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>известняк</Word>
+        <Description>Осадочная горная порода</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>трактат</Word>
+        <Description>Международный договор</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>галоп</Word>
+        <Description>Аллюр,при котором лошадь идёт вскачь</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>боа</Word>
+        <Description>Женский шарф из меха или перьев</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>мат</Word>
+        <Description>Неприличная брань</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>станция</Word>
+        <Description>Пункт, место остановки на железных дорогах</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>миссионер</Word>
+        <Description>Лицо, посылаемое церковью для распространения своей религии среди иноверцев</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>рубка</Word>
+        <Description>Служебное помещение на судне</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>роман</Word>
+        <Description>Большое повествовательное, художественное произведение со сложным сюжетом</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>герой</Word>
+        <Description>Действующее лицо литературного произведения</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>титаник</Word>
+        <Description>Крупнейшее пассажирское судно начала 20 в, затонувшее в Атлантическом океане</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>шоколад</Word>
+        <Description>Застывшая масса из порошка бобов какао с сахаром и пряностями</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>фанатик</Word>
+        <Description>Человек, до исступления преданный своей религии, вере</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>текучесть</Word>
+        <Description>Свойство тел вязко деформироваться под действием напряжений</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>агат</Word>
+        <Description>Полудрагоценный камень</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>агрономия</Word>
+        <Description>Наука о земледелии и сельском хозяйстве</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>ворон</Word>
+        <Description>Птица с блестящим чёрным оперением</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>майоран</Word>
+        <Description>Душистое растение, используемое в парфюмерии и в кулинарии</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>носорог</Word>
+        <Description>Крупное непарнокопытное млекопитающее южных стран с одним или двумя рогами на передней части морды</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>поэма</Word>
+        <Description>Большое литературное произведение, обычно в стихах</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>лапти</Word>
+        <Description>Старинная русская плетёная обувь</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>копия</Word>
+        <Description>Нечто, очень похожее, совпадающе</Description>
+    </SimpleWord>
+    <SimpleWord>
+        <Word>аут</Word>
+        <Description>В спортивных играх: положение, когда мяч оказывается за пределами игрового поля</Description>
+    </SimpleWord>
 </SimpleWords>

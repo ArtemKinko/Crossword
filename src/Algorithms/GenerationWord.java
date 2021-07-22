@@ -4,8 +4,8 @@ import BaseClasses.Word;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
+// класс, реализующий слово со связями
 public class GenerationWord extends Word{
     public GenerationWord() {
         pairList = new ArrayList<>();
@@ -15,31 +15,17 @@ public class GenerationWord extends Word{
     // 1 параметр - слово, которое связано с главным
     // 2 параметр - позиция общей буквы ГЛАВНОГО слова
     // 3 параметр - позиция обзей буквы СВЯЗАННОГО слова
-    private List<List<Object>> pairList;
-
+    private final List<List<Object>> pairList;
     public List<List<Object>> getPairList() {
         return pairList;
     }
 
+    // метод добавления слова word с позициями posMain и posExtra в список
     public void addPair(GenerationWord word, int posMain, int posExtra) {
         List<Object> list = new ArrayList<>();
         list.add(word);
         list.add(posMain);
         list.add(posExtra);
         pairList.add(list);
-    }
-
-    @Override
-    public String toString() {
-        return "BaseClasses.Word{" +
-                "length=" + getLength() +
-                ", isHorizontal=" + isHorizontal() +
-                ", x=" + getX() +
-                ", y=" + getY() +
-                ", word='" + getWord() + '\'' +
-                ", definition='" + getDefinition() + '\'' +
-                ", GenerationWord{" +
-                ", pairList=" + pairList +
-                '}';
     }
 }

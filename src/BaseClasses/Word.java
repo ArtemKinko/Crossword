@@ -1,5 +1,6 @@
 package BaseClasses;
 
+// базовый класс слова
 public class Word extends Object{
 
     private int length;             // длина слова

@@ -1,11 +1,9 @@
 package Panels;
 
 import javax.swing.*;
-import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
+// класс, реализуюзщий панель для выбора директории для сохранения таблицы после генерации
 public class SaveGenPanel extends JPanel {
     public SaveGenPanel() {
         setBorder(BorderFactory.createTitledBorder("Сохранение"));
@@ -42,15 +40,12 @@ public class SaveGenPanel extends JPanel {
 
         // слушатель нажатия кнопки для выбора директории
         fileChooser = new JFileChooser();
-        buttonPath.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                fileChooser.setDialogTitle("Выберите директорию для сохранения кроссворда");
-                fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-                int result = fileChooser.showOpenDialog(SaveGenPanel.this);
-                if (result == JFileChooser.APPROVE_OPTION)
-                    pathField.setText(String.valueOf(fileChooser.getSelectedFile()));
-            }
+        buttonPath.addActionListener(e -> {
+            fileChooser.setDialogTitle("Выберите директорию для сохранения кроссворда");
+            fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+            int result = fileChooser.showOpenDialog(SaveGenPanel.this);
+            if (result == JFileChooser.APPROVE_OPTION)
+                pathField.setText(String.valueOf(fileChooser.getSelectedFile()));
         });
 
         // добавляем надпись
@@ -68,12 +63,12 @@ public class SaveGenPanel extends JPanel {
         add(nameField, constraints);
     }
 
-    private JFileChooser fileChooser;
+    private final JFileChooser fileChooser;
     public JFileChooser getFileChooser() {
         return fileChooser;
     }
 
-    private JTextField nameField;
+    private final JTextField nameField;
     public JTextField getNameField() {
         return nameField;
     }

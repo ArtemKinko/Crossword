@@ -2,17 +2,14 @@ package Panels;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
 
+// класс, реализующий панель для отображения слов словаря
 public class ExtraPanel extends JPanel {
     public ExtraPanel() {
         setBorder(BorderFactory.createTitledBorder("Список доступных слов"));
         setLayout(new GridBagLayout());
 
-        // прикрепляем первую кнопку
+        // прикрепляем зону со словами словаря
         GridBagConstraints constraints = new GridBagConstraints();
         constraints.fill = GridBagConstraints.CENTER;
         constraints.ipadx = 300;
@@ -28,7 +25,7 @@ public class ExtraPanel extends JPanel {
         add(new JScrollPane(termsArea), constraints);
     }
 
-    private JTextArea termsArea;
+    private final JTextArea termsArea;
     public void setTerms(String terms) {
         termsArea.setText(terms);
     }
